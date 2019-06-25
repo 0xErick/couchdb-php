@@ -13,3 +13,5 @@ require(dirname(__FILE__) . '/lib/Exception.php');
 require(dirname(__FILE__) . '/lib/Core/DB.php');
 
 require(dirname(__FILE__) . '/lib/Core/User.php');
+
+require(dirname(__FILE__) . '/lib/Core/Document.php');
