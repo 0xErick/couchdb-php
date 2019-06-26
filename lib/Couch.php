@@ -64,10 +64,6 @@ class Couch
 
         $response    = json_decode(curl_exec($curl), TRUE);
         $http_status = curl_getinfo($curl, CURLINFO_HTTP_CODE);
-
-
-        // var_dump($response);
-        var_dump($http_status);
         return [$http_status,$response];
     }
 }
